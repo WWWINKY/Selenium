@@ -9,7 +9,7 @@ public class Demo {
         WebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.get("http://www.google.com");
-        System.out.println("Title: " + driver.getTitle() );
+        System.out.println("Title: " + driver.getTitle());
         driver.quit();
     }
 }
